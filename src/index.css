@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.active{
+    @apply border-b-3 border-indigo-500;
+    border-radius: 5px;
+}
+
+.nav-item {
+    @apply hover:text-indigo-500;
+}
+
+.hr-line {
+    border-top-width: 6px;
+    border-radius: 4px;
+}
+.newletter{
+    background: linear-gradient(180deg, oklch(70.5% 0.233 277.117), #e1ffea22 60% );
+}
+
+.Banner{
+    background: linear-gradient(90deg, oklch(90.5% 0.233 277.117) , #e1ffea22 60% );
+}
+.login-singup-input{
+    @apply w-full border-1 border-gray-400 h-14 p-3 outline-none mt-5;
+}
+.side-img{
+    @apply w-32 border-indigo-500 border-2 mt-5;
+    border-radius: 6px;
+}
+.size-section{
+   @apply w-15 h-15 bg-gray-200 text-[18px] cursor-pointer font-medium;
+}
+.discription-nav{
+   @apply border-1 border-gray-300 p-4 font-medium;
+}
+.fade{
+    @apply bg-[#f8f8f8];
+}
+.bar{
+    display: none;
+}
+@media (max-width:767px) {
+    .bar{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        top: 80px;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar-on{
+        display: flex;
+    }
+}
