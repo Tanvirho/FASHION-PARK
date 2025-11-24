@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './header'
+import Header from './Header'
 import Popular from './popular'
 import Offer from './Offer'
 import Collections from './Collections'
