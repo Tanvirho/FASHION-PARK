@@ -1,6 +1,6 @@
 import React from 'react'
 import backGroundImage from '../assets/hero-4.png'
-import Navbar from './Navbar'
+
 
 function Header() {
   return (
