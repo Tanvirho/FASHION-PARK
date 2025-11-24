@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Popular from './popular'
+import Popular from './Popular'
 import Offer from './Offer'
 import Collections from './Collections'
 import Newsletter from './Newletter'
