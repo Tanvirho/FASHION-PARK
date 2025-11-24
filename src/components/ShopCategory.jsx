@@ -60,13 +60,13 @@ function ShopCategory(props) {
       </div>
 
       {/* 5. Update the product count display */}
-      <div className="m-5 md:m-0 md:mt-5 flex justify-center md:justify-between items-center flex-wrap">
-        <p className='mb-2 md:mb-0'>
+      <div className="m-5 md:mt-5 flex justify-center md:justify-between items-center flex-wrap">
+        <p className='mb-2 mr-5 md:mb-0'>
           <b>Showing {filteredProducts.length}</b> out of {totalCategoryProducts} products
         </p>
 
         {/* 6. Add value and onChange to the input */}
-        <div className="border-1 p-2 space-x-2 rounded-full border-blue-700">
+        <div className="flex items-center border-1 p-2 space-x-2 rounded-full border-blue-700">
           <FontAwesomeIcon className='text-indigo-500' icon={faSearch} />
           <input
             className='outline-none'

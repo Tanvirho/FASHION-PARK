@@ -3,7 +3,7 @@ import Item from './Item';
 import Data from '../assets/data'
 
 
-export default function RelatedProduct(props) {
+export default function RelatedProduct() {
 
 
     return (
